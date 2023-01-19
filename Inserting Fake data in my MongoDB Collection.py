@@ -1,8 +1,10 @@
 # importing module
 from pymongo import MongoClient
+#importing the faker module
 import faker
 from faker import Faker
 import time
+
 
 f=faker.Faker(['fr_FR'])
 
